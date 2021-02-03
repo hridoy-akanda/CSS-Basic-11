@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+header{
+    text-align: center;
+    padding:20px;
+    background-color:cadetblue;
+}
+.logo img{
+    height:100px;
+    width:100px;
+}
+header h1{
+    font-size:2.5rem;
+    padding:10px;
+    color:white;
+}
+nav{
+    display:flex;
+    flex-direction:column;
+}
+nav a{
+    text-decoration: none;
+    font-size:1.3rem;
+    margin:5px;
+    padding: 5px;
+    color:white;
+    text-transform: uppercase;
+    background-color:teal;
+    border-radius:20px;
+}
+nav a:hover{
+    color:rgb(255, 120, 24);
+}
+
+/* Both desktop and mobile */
+[class*="col-"]{
+    float:left;
+    padding:10px;
+}
+/* for mobile only */
+[class*="col-"]{
+    width:100%;
+}
+header::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+
+
+
+
+
