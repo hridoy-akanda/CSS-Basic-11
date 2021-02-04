@@ -33,7 +33,20 @@ header nav a{
 
 /* Profile design starts here */
 
-
-
+.profile .image1 img{
+    height: 120px;
+    width: 120px;
+    right:100px;
+    top:80px;
+}
+.contents p{
+    width:60%;
+}
+.profile .image2 img{
+    height:120px;
+    width: 120px;
+    left: 100px;
+    bottom: 80px;
+}
 
 /* Profile design ends here */

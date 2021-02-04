@@ -93,8 +93,16 @@ header::after{
     font-size:2rem;
 }
 .contents p{
+    width:90%;
+    margin: 0 auto;
     text-align:center;
     padding:10px;
+    color:grey; 
+}
+.section1::after{
+    content:"";
+    clear: both;
+    display:table;
 }
 
 /* Profile/section1 design ends here */
