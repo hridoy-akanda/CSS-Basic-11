@@ -31,7 +31,7 @@ header nav a{
 
 /* header design ends here */
 
-/* Profile design starts here */
+/* Profile/section1 design starts here */
 
 .profile .image1 img{
     height: 120px;
@@ -49,4 +49,27 @@ header nav a{
     bottom: 80px;
 }
 
-/* Profile design ends here */
+/* Profile/section1 design ends here */
+
+/* youtube/section2 starts here */
+    /* .section2{
+    height: 500px;
+    } */ 
+.videos{
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+}
+.videos iframe{
+    padding:0px 20px;
+    /* width:560px;
+    height:307px; */
+}
+
+/* youtube/section2 ends here */
+
+/* about/section3 starts here */
+
+
+
+/* about/section3 ends here */

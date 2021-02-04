@@ -107,6 +107,44 @@ header::after{
 
 /* Profile/section1 design ends here */
 
+/* youtube/section2 starts here */
 
+.section2{
+    background-color:grey;
+    color:white; 
+    text-align:center;  
+    padding:20px;
+}
+.dotted-hr{
+    border:5px dotted white;
+    border-bottom:none;
+    width:50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.videos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+    justify-content:space-around;
+}
+.videos iframe{
+    padding:20px 0;
+    /* max-width: 100%; */
+}
+.section2::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+/* youtube/section2 ends here */
+
+/* about/section3 starts here */
+
+
+
+/* about/section3 ends here */
 
 
