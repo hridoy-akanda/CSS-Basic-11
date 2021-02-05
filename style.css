@@ -97,7 +97,8 @@ header::after{
     margin: 0 auto;
     text-align:center;
     padding:10px;
-    color:grey; 
+    color:grey;
+    /* font-size: 1.2rem; */
 }
 .section1::after{
     content:"";
@@ -113,14 +114,16 @@ header::after{
     background-color:grey;
     color:white; 
     text-align:center;  
-    padding:20px;
+    padding:40px;
+    /* padding:40px auto; */
+    font-size:1.3rem;
 }
 .dotted-hr{
     border:5px dotted white;
     border-bottom:none;
     width:50px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 .videos{
     display:flex;
@@ -132,6 +135,9 @@ header::after{
 .videos iframe{
     padding:20px 0;
     /* max-width: 100%; */
+    width:400px;
+    height:265px;
+    
 }
 .section2::after{
     content:"";
@@ -142,9 +148,195 @@ header::after{
 /* youtube/section2 ends here */
 
 /* about/section3 starts here */
+.section3{
+    background-color: cadetblue;
+    padding:40px;
+    text-align: center;
+    color: white;
+    min-height:720px;
+    font-size: 1.3rem;
+}
+.section3 p{
+    font-size: 1.3rem;
+    /* width:60%; */
+    margin:.6em auto;
+}
+.section3 p a{
+    text-decoration:none;
+    color:white;
+}
+.section3 p a:hover{
+    color:rgb(255, 120, 24);
+}
 
 
+.section3 img{
+    height: 200px;
+    width:200px;
+    border-radius:50%;
+    border:5px solid white;
+    margin:30px auto;
+}
+a button{
+    border:none;
+    color:white;
+    background-color: rgb(65, 64, 64);
+    padding:5px;
+    border-radius:5px;
+    width:90px;
+    margin-top: 25px;
+}
+a button:hover{
+    color:rgb(255, 120, 24);
+    background-color: rgb(192, 192, 192);
+    font-weight: bolder;
+    cursor:pointer;
+}
+.section3::after{
+    content:"";
+    clear:both;
+    display:table;
+}
 
 /* about/section3 ends here */
+
+/* section4/qualification starts here */
+.card{
+    background-color: rgb(185, 185, 185);
+    text-align:center;
+    padding:30px 20px;
+    min-height:680px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    box-sizing: border-box;
+}
+.card:hover{
+    /* box-shadow: black 0px 5px 5px 5px 5px; */
+    box-shadow: 5px 5px 25px black;
+}
+.card-icon img{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    border:5px solid white;
+}
+.card-title h1{
+    text-transform:uppercase;
+    background-color: rgb(107, 107, 107);
+    color:white;
+}
+.card-description{
+    margin-top: 20px;
+    text-align: left;
+    padding:0 20px;
+}
+.card-description hr{
+    margin:5px 0;
+}
+.card-description li{
+    /* list-style-type: none; */
+}
+.skills .card .card-description li{
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 30px 0;
+    font-weight: bolder;
+    position: relative;
+}
+.skills .card .card-description li::before{
+    background-color:rgb(144, 162, 245);
+    height:20px;
+    width:100%;
+    content:"";
+    position: absolute;
+    border-radius:20px;
+    top:25px;
+}
+.skills .card .card-description li::after{
+    background-color:rgb(4, 42, 211);
+    height:20px;
+    width:0;
+    content:"";
+    position: absolute;
+    border-radius:20px;
+    top:25px;
+    left:0;
+    animation-duration:2s;
+    animation-delay:1s;
+    animation-timing-function:linear;
+    animation-fill-mode:forwards;
+    animation-iteration-count:3;
+}
+.html::after{
+    animation-name: html;
+}
+@keyframes html{
+    to{
+        width:95%;
+    }
+}
+.css::after{
+    animation-name: css;
+}
+@keyframes css{
+    to{
+        width:90%;
+    }
+}
+.javascript::after{
+    animation-name: javascript;
+}
+@keyframes javascript{
+    to{
+        width:90%;
+    }
+}
+.jquery::after{
+    animation-name: jquery;
+}
+@keyframes jquery{
+    to{
+        width:50%;
+    }
+}
+.bootstrap::after{
+    animation-name: bootstrap;
+}
+@keyframes bootstrap{
+    to{
+        width:50%;
+    }
+}
+.react::after{
+    animation-name: react;
+}
+@keyframes react{
+    to{
+        width:60%;
+    }
+}
+.angular::after{
+    animation-name: angular;
+}
+@keyframes angular{
+    to{
+        width:60%;
+    }
+}
+.nodejs::after{
+    animation-name: nodejs;
+}
+@keyframes nodejs{
+    to{
+        width:40%;
+    }
+}
+.section4::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+/* section4/qualification ends here */
 
 

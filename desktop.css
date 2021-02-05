@@ -62,14 +62,26 @@ header nav a{
 }
 .videos iframe{
     padding:0px 20px;
-    /* width:560px;
-    height:307px; */
+    
+    width:25%;
+    height:177px;
 }
 
 /* youtube/section2 ends here */
 
 /* about/section3 starts here */
-
-
-
+.section3 .description{
+    text-align: left;
+}
+.section3 img{
+    height: 250px;
+    width:250px;
+    margin:50px auto;
+}
 /* about/section3 ends here */
+
+/* section4/qualification starts here */
+
+
+
+/* section4/qualification ends here */
