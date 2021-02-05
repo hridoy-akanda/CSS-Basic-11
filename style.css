@@ -245,7 +245,7 @@ a button:hover{
 }
 .skills .card .card-description li::before{
     background-color:rgb(144, 162, 245);
-    height:20px;
+    height:15px;
     width:100%;
     content:"";
     position: absolute;
@@ -253,8 +253,8 @@ a button:hover{
     top:25px;
 }
 .skills .card .card-description li::after{
-    background-color:rgb(4, 42, 211);
-    height:20px;
+    background-color:rgb(72, 96, 202);
+    height:15px;
     width:0;
     content:"";
     position: absolute;
@@ -323,12 +323,12 @@ a button:hover{
         width:60%;
     }
 }
-.nodejs::after{
-    animation-name: nodejs;
+.github::after{
+    animation-name: github;
 }
-@keyframes nodejs{
+@keyframes github{
     to{
-        width:40%;
+        width:80%;
     }
 }
 .section4::after{
@@ -339,4 +339,6 @@ a button:hover{
 
 /* section4/qualification ends here */
 
+/* section5/achievment-contacts starts here */
 
+/* section5/achievment-contacts ends here */
