@@ -89,3 +89,18 @@ header nav a{
 /* section5/achievment-contacts starts here */
 
 /* section5/achievment-contacts ends here */
+
+/* footer starts here */
+footer nav{
+    flex-direction:row;
+    justify-content: flex-start;
+
+}
+footer nav a{
+    background-color: transparent;
+}
+.footer-description{
+    text-align: right;
+    margin-top: 20px;
+}
+/* footer ends here */

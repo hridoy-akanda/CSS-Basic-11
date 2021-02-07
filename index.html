@@ -28,14 +28,14 @@
         <div class="logo col-2">
             <img src="images/profile1.png" alt="logo">
         </div>
-        <div class="title col-4">
+        <div class="title col-5">
             <h1>Hridoy Akanda</h1>
         </div>
-        <nav class="col-6">
+        <nav class="col-5">
             <a href="#">Home</a>
-            <a href="#">Skills</a>
-            <a href="#">About</a>
-            <a href="#">Contacts</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">About</a>
+            <a href="#contacts">Contacts</a>
         </nav>
     </header>
     <!-- header ends here -->
@@ -82,7 +82,7 @@
         </section>
         <!-- Youtube links/section2 ends here -->
         <!-- about/section3 starts here -->
-        <section class="about section3">
+        <section class="about section3" id="about">
             <h1>About</h1>
             <hr class="dotted-hr">
             <div class="about-image col-6">
@@ -186,7 +186,7 @@
                     </div>
                 </div>
             </div>
-            <div class="skills col-4">
+            <div class="skills col-4" id="skills">
                 <div class="card">
                     <div class="card-icon">
                         <img src="images/skills.png" alt="skill logo">
@@ -226,7 +226,7 @@
                         aspernatur doloremque!</p>
                 </div>
             </div>
-            <div class="contact-form col-4">
+            <div class="contact-form col-4" id="contacts">
                 <h1>Contact</h1>
                 <hr class="dotted-hr">
                 <form action="mailto:hridoy2453@gmail.com" method="post" enctype="text/plain">
@@ -280,7 +280,21 @@
         </section>
         <!-- section5/achievment-contacts ends here -->
     </main>
-    <footer></footer>
+    <!-- footer starts here -->
+    <footer>
+        <div class="footer-menu col-6">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#about">About</a>
+                <a href="#contacts">Contacts</a>
+            </nav>
+        </div>
+        <div class="footer-description col-6">
+            &copy; Hridoy 2021. Developed by Hridoy Akanda.
+        </div>
+    </footer>
+    <!-- footer ends here -->
 </body>
 
 </html>

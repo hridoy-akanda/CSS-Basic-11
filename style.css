@@ -18,6 +18,7 @@ header h1{
     font-size:2.5rem;
     padding:10px;
     color:white;
+    text-transform: uppercase;
     /* text-transform:uppercase; */
 }
 nav{
@@ -396,18 +397,24 @@ textarea{
 }
 /* Social links (part:3) */
 .social-links{
-    text-align:center;
-    width:90%;
+   
+    /* width:90%; */
+    /* position: relative; */
+    
     /* margin-top: 10px; */
 }
 .social-icons a i{
+  /* position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%); */
   background-color:white;
   border:none;
   font-size: 30px;
   width:50px;
   padding:10px 0;
   border-radius: 50%;
-  margin:0px 40px;   
+  margin:0px 10px;   
 }
 .social-icons a i:hover{
     box-shadow: 2px 2px 25px teal;
@@ -422,3 +429,36 @@ textarea{
 }
 
 /* section5/achievment-contacts ends here */
+
+
+/* footer starts here */
+footer{
+    text-align: center;
+    padding:20px;
+    background-color:black;
+    color:white;
+}
+footer nav{
+    display:flex;
+    flex-direction:column;
+}
+footer nav a{
+    text-decoration: none;
+    font-size:1rem;
+    margin:5px;
+    padding: 5px;
+    color:white;
+    text-transform: uppercase;
+    background-color:rgb(65, 64, 64);
+    border-radius:20px;
+}
+footer nav a:hover{
+    color:rgb(255, 120, 24);
+}
+footer::after{
+    content: "";
+    clear:both;
+    display:table;
+}
+
+/* footer ends here */
