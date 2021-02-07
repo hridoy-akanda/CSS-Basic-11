@@ -110,7 +110,7 @@ header::after{
 
 /* Profile/section1 design ends here */
 
-/* youtube/section2 starts here */
+/* videos/section2 starts here */
 
 .section2{
     background-color: rgb(185, 185, 185);
@@ -147,7 +147,7 @@ header::after{
     display: table;
 }
 
-/* youtube/section2 ends here */
+/* videos/section2 ends here */
 
 /* about/section3 starts here */
 .section3{
@@ -448,8 +448,8 @@ footer nav a{
     margin:5px;
     padding: 5px;
     color:white;
-    text-transform: uppercase;
-    background-color:rgb(65, 64, 64);
+    /* text-transform: uppercase; */
+    background-color:transparent;
     border-radius:20px;
 }
 footer nav a:hover{
