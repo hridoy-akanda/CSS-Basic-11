@@ -91,14 +91,14 @@ header nav a{
 /* footer starts here */
 footer nav{
     flex-direction:row;
-    justify-content: flex-start;
+    justify-content: center;
 
 }
 footer nav a{
     background-color: transparent;
 }
 .footer-description{
-    text-align: right;
+    text-align: center;
     margin-top: 20px;
 }
 /* footer ends here */
